@@ -7,27 +7,26 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <style>
-        body {
-            background-color: #313131;
+        body, html {
+            height: 100%;
         }
-        
-        .row {
-            color: #ffffff;
-            font-family: 'Righteous', cursive;
-            font-size: 125%;
+
+        .bg { 
+            /* The image used */
+            background-image: url("Welcome.jpg");
+
+            /* Full height */
+            height: 100%; 
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
 <body>
-    <img src="Welcome.jpg" width="100%" length="100%" />
-    <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-lg-4">Join our Discord: https://discord.gg/bD3xbqb</div>
-            <div class="col-lg-4">Server IP: 192.99.239.53:27015</div>
-            <div class="col-lg-4">Content Pack: <br />http://steamcommunity.com/sharedfiles/filedetails/?id=971961993</div>
-        </div>
-    </div>
+    <div class="bg"></div>
 </body>
 </html>
